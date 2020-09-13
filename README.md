@@ -21,7 +21,7 @@ gitlab.com
 github.com
 
 $ cat domains | emailnum
-xample.com "v=spf1 -all"
+example.com "v=spf1 -all"
 github.com "v=spf1 ip4:192.30.252.0/22 ip4:208.74.204.0/22 ip4:46.19.168.0/23 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:servers.mcsv.net ~all"
 github.com "v=DMARC1; p=none; rua=mailto:dmarc@github.com,mailto:d@rua.agari.com"
 gitlab.com "v=spf1 include:mail.zendesk.com include:_spf.google.com include:mktomail.com include:_spf.salesforce.com include:_spf-ip.gitlab.com a:zgateway.zuora.com -all"
