@@ -103,6 +103,11 @@ $ cat domains | emailnum -dmarc 2 | grep ~all
 github.com "v=spf1 ip4:192.30.252.0/22 ip4:208.74.204.0/22 ip4:46.19.168.0/23 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:servers.mcsv.net ~all"
 ```
 
+## Issues / Contributions
+
+Please make any issues or contributions at
+[gitlab.com/mokytis/emailnum](https://gitlab.com/mokytis/emailnum).
+
 ## Thanks
 
 This tool was created to automate some of my workflow, but was inspired by
