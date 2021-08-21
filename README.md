@@ -5,7 +5,7 @@ Take a list of domains and check their SPF and DMARC records.
 ## Install
 
 ```
-go get -u gitlab.com/mokytis/emailnum
+go install github.com/mokytis/emailnum@main
 ```
 
 ## Basic Usage

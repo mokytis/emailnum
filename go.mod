@@ -1,3 +1,3 @@
-module gitlab.com/mokytis/emailnum
+module github.com/mokytis/emailnum
 
 go 1.15
